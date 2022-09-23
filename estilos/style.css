@@ -54,6 +54,7 @@ section#login > div#formulário {
     padding: 10px;
 }
 
+
 div#formulário > p {
     margin-bottom: 10px;
 }
@@ -88,9 +89,6 @@ form > input[type=submit]:hover {
     background-color: #2d6462;
 }
 
-form > div#formulário > input {
-    justify-content: center;
-}
 
 form > a.botao {
     display: block;
