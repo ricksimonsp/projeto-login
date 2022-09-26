@@ -68,6 +68,25 @@ div#formulário > p {
     font-size: 0.8em;
 }
 
+div.campo > label {
+    display: none;
+}
+
+div.campo > input {
+    background-color: #6cd3cf;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 5px;
+    width: calc(100% - 30px);
+
+    
+}
+
+div.campo >input:focus-within {
+    background-color: white;
+}
+
+
 label {
     font-size: 0.9em;
 }
